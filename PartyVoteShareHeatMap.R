@@ -15,4 +15,4 @@ geom_tile(aes(fill=VoteShare)) +
 scale_fill_viridis(option = "plasma") +
 theme_solarized_2() +
 xlab("State") +
-ylab("Party") +guides(fill = guide_legend(title="Vote Share"))
+ylab("Party") + guides(fill = guide_legend(title="Vote Share"))
